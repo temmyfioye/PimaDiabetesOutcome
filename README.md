@@ -8,4 +8,4 @@ The analysis involves preprocessing the data, splitting it into training and tes
 
 By leveraging logistic regression, this analysis aims to provide insights into the factors that contribute to the occurrence of diabetes. The model's accuracy and other evaluation metrics will help assess its effectiveness in predicting diabetes outcomes and potentially guide further investigation into preventive measures or early intervention strategies.
 # In the branch: Eliminating 0s from the features columns
-I dropped all the rows that had 0s in them to compare the outcomes. I split the test to 10% as 20% caused overfitting.
+In the branch named "Eliminating 0s from the features columns," I removed all the rows that contained 0s in the features columns for the purpose of comparing the outcomes. To prevent overfitting, I split the data into a test set consisting of 10%, as using a 20% test set resulted in overfitting.
