@@ -7,3 +7,5 @@ Logistic regression is a statistical technique commonly used for binary classifi
 The analysis involves preprocessing the data, splitting it into training and testing sets, and then training the logistic regression model on the training data. Once trained, the model will be evaluated using the testing data to assess its predictive performance.
 
 By leveraging logistic regression, this analysis aims to provide insights into the factors that contribute to the occurrence of diabetes. The model's accuracy and other evaluation metrics will help assess its effectiveness in predicting diabetes outcomes and potentially guide further investigation into preventive measures or early intervention strategies.
+# In the branch: Eliminating 0s from the features columns
+I dropped all the rows that had 0s in them to compare the outcomes. I split the test to 10% as 20% caused overfitting.
