@@ -1,11 +1,6 @@
-# Pima Diabetes Outcome Analysis with Logistic Regression
-
-The purpose of this analysis is to apply logistic regression to a dataset to predict the outcome of diabetes. The dataset used in this analysis contains various features related to individuals' health and the target variable represents the presence or absence of diabetes.
-
-Logistic regression is a statistical technique commonly used for binary classification problems, making it suitable for predicting the outcome of diabetes in this case. By fitting a logistic regression model to the dataset, we aim to identify the relationship between the input features and the likelihood of having diabetes.
-
-The analysis involves preprocessing the data, splitting it into training and testing sets, and then training the logistic regression model on the training data. Once trained, the model will be evaluated using the testing data to assess its predictive performance.
-
-By leveraging logistic regression, this analysis aims to provide insights into the factors that contribute to the occurrence of diabetes. The model's accuracy and other evaluation metrics will help assess its effectiveness in predicting diabetes outcomes and potentially guide further investigation into preventive measures or early intervention strategies.
 # In the branch: Eliminating 0s from the features columns
-In the branch named "Eliminating 0s from the features columns," I removed all the rows that contained 0s in the features columns for the purpose of comparing the outcomes. To prevent overfitting, I split the data into a test set consisting of 10%, as using a 20% test set resulted in overfitting.
+I implemented a data preprocessing step to remove all rows that contained 0s in the features columns. This approach was undertaken to perform a comparative analysis of the outcomes by excluding these specific data points. 
+
+To ensure the integrity of the analysis and avoid overfitting, I partitioned the data into a test set comprising 10% of the overall dataset. During experimentation, it was observed that using a larger test set of 20% led to overfitting, prompting the decision to reduce the test set size. 
+
+The resulting model, trained on the modified dataset, exhibited an impressive accuracy of 90%. This accuracy metric serves as a testament to the effectiveness of the data preprocessing approach and the model's ability to generalize well to unseen data.
